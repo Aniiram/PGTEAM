@@ -1,0 +1,77 @@
+nav .nav-link {
+    --kisc-nav-link-color: white;
+}
+
+a {
+    color: var(--kisc-pinkie);
+}
+
+h1 {
+    color: var(--kisc-pinkie);
+}
+
+.alert a {
+    color: white;
+}
+
+.ag-theme-quartz {
+    --ag-active-color: var(--kisc-pinkie);
+    --ag-font-family: "Cabin", sans-serif;
+    --ag-header-height: 30px;
+    --ag-header-background-color: var(--kisc-pinkie);
+    --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+}
+
+.ag-theme-quartz .ag-header {
+    text-transform: uppercase;
+}
+
+.ag-theme-quartz .ag-header-cell {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ag-theme-quartz .ag-header-cell-text {
+    color: var(--kisc-white);
+}
+
+.table:not(.table-simple) thead {
+    --kisc-table-bg: var(--kisc-pinkie);
+}
+
+.nav-pills {
+    --kisc-nav-pills-link-active-bg: var(--kisc-pinkie-bg-subtle)
+}
+
+.nav-link {
+    --kisc-nav-link-color: var(--kisc-pinkie);
+}
+
+.bg-primary {
+    background-color: var(--kisc-pinkie) !important;
+}
+
+.text-primary {
+    color: var(--kisc-pinkie) !important;
+}
+
+.text-bg-primary {
+    background-color: var(--kisc-pinkie) !important;
+}
+
+.btn-primary {
+    --kisc-btn-color: #fff;
+    --kisc-btn-bg: #E6007E;
+    --kisc-btn-border-color: #E6007E;
+    --kisc-btn-hover-color: #fff;
+    --kisc-btn-hover-bg: #c4006b;
+    --kisc-btn-hover-border-color: #b80065;
+    --kisc-btn-focus-shadow-rgb: 234, 38, 145;
+    --kisc-btn-active-color: #fff;
+    --kisc-btn-active-bg: #b80065;
+    --kisc-btn-active-border-color: #ad005f;
+    --kisc-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --kisc-btn-disabled-color: #fff;
+    --kisc-btn-disabled-bg: #E6007E;
+    --kisc-btn-disabled-border-color: #E6007E;
+}

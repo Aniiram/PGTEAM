@@ -1,0 +1,22 @@
+<div style="margin-bottom: 10px;">
+    <input type="text" id="columnSearch" class="form-control mb-2" placeholder="Search columns..."
+        oninput="filterColumns()">
+
+    <div style="display:flex; gap:10px; margin-bottom:10px;">
+        <button class="btn btn-sm btn-secondary" onclick="selectAllColumns(true)">
+            Select All
+        </button>
+
+        <button class="btn btn-sm btn-secondary" onclick="selectAllColumns(false)">
+            Unselect All
+        </button>
+    </div>
+</div>
+
+<div id="columnList" class="column-list"
+    style="max-height:250px; overflow-y:auto; border:1px solid #ddd; padding:10px; border-radius:5px;">
+</div>
+
+<button class="btn btn-outline-primary btn-sm mt-2" onclick="toggleColumns()">
+    Show / Hide Columns
+</button>
